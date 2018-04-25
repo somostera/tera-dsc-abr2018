@@ -1,2 +1,2 @@
-# tera-dsc-abr2018
-Repositório dos alunos e instrutores da turma de abril de 2018 de Data Science &amp; Machine Learning for Business da Tera
+# Introdução e Fundamentos de Data Science
+Material da aula 01 - Introdução e Fundamentos de Data Science.
