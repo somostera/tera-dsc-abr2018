@@ -8,6 +8,15 @@ Material da aula 07.
 * Slack: `@allandieguez`
 * LinkedIn: `https://www.linkedin.com/in/allan-dieguez-a05a741b`
 
+## Estrutura da Aula
+
+A aula será dividida em duas seções, a primeira de 60 min e a segunda de 120 min. Cada seção está totalmente contida em um único notebook e todo o conhecimento necessário para concluir os desafios está nos notebooks da Pré-Aula. 
+
+É extremamente importante que os alunos explorem todo o material da Pré-Aula nos dias anteriores à aula, para que todos tenham a mesma experiência durante a solução dos desafios.
+
+O material complementar da Pós-Aula contém desafios adicionais que os alunos devem tentar solucionar em casa. Uma semana após a aula serão postadas as soluções para todos os desafios no github da Tera.
+
+
 ## Material de referência
 
 ### Pré-Aula:
