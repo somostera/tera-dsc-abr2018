@@ -1,5 +1,5 @@
-# Visualização de dados com matplotlib
-Material da aula 10.
+# Visualização de dados para Tomada de Decisão
+Material da aula 09.
 
 ## Informações do Instrutor
 ![Infos do Instrutor](images/info_instrutor.png)
