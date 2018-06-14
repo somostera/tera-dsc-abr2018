@@ -12,10 +12,12 @@ Material da aula 17.
 
 ### Pré-Aula:
 1. Apresentação  (PDF) da Cristiane, na pasta Pré-Aula (Obrigatório)
-2. Conceitos explicados em vídeo:
+2. Conceitos explicados em vídeo (Obrigatório):
  -  [Cross Validation](https://www.youtube.com/watch?v=sFO2ff-gTh0)
  -  [Regularização](https://www.youtube.com/watch?v=sO4ZirJh9ds)
-3. 
 
 ### Pós-Aula:
-1. Desafios Extras
+1. Explorar o site do Scikit-Learn:
+- [Linear Models](http://scikit-learn.org/stable/modules/classes.html#module-sklearn.linear_model)
+- [GridSearchCV](http://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html)
+- [KFold](http://scikit-learn.org/stable/modules/generated/sklearn.model_selection.KFold.html)
