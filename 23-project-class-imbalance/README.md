@@ -12,3 +12,5 @@
 - Machine Learning Mastery: [8 Tactics to Combat Imbalanced Classes in Your Machine Learning Dataset](https://machinelearningmastery.com/tactics-to-combat-imbalanced-classes-in-your-machine-learning-dataset)
 
 - [User Guide](http://contrib.scikit-learn.org/imbalanced-learn/stable/user_guide.html) do pacote `imbalanced-learn`
+
+- Andrew Ng: [Anomaly Detection](https://coursera.org/lecture/machine-learning/developing-and-evaluating-an-anomaly-detection-system-Mwrni) (3 vídeos)
