@@ -12,11 +12,8 @@ def plot_confusion_matrix(y_test, y_pred,
                           cmap=plt.cm.Blues):
     """
     This function prints and plots the confusion matrix.
-    Normalization can be applied by setting `normalize=True`.
     """
     cm = confusion_matrix(y_test, y_pred)
-
-    print(cm)
 
     plt.imshow(cm, interpolation='nearest', cmap=cmap)
     plt.title(title)
@@ -25,7 +22,7 @@ def plot_confusion_matrix(y_test, y_pred,
     plt.xticks(tick_marks, class_names, rotation=45)
     plt.yticks(tick_marks, class_names)
 
-    fmt = '.2f' if normalize else 'd'
+    fmt = 'd'
     thresh = cm.max() / 2.
     for i, j in itertools.product(range(cm.shape[0]), range(cm.shape[1])):
         plt.text(j, i, format(cm[i, j], fmt),
