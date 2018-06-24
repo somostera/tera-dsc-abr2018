@@ -13,4 +13,6 @@
 
 - [User Guide](http://contrib.scikit-learn.org/imbalanced-learn/stable/user_guide.html) do pacote `imbalanced-learn`
 
-- Andrew Ng: [Anomaly Detection](https://coursera.org/lecture/machine-learning/developing-and-evaluating-an-anomaly-detection-system-Mwrni) (3 vídeos)
+- Andrew Ng: [Machine Learning](https://www.coursera.org/learn/machine-learning) (excelente curso com 8 vídeos sobre Anomaly Detection)
+
+- [Discussões](https://www.kaggle.com/mlg-ulb/creditcardfraud/discussion) e [kernels](https://www.kaggle.com/mlg-ulb/creditcardfraud/kernels) do dataset no Kaggle
