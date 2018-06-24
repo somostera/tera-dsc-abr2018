@@ -4,6 +4,7 @@
 ## Pré-aula
 
 - Descompactar dataset que está em formato `.zip` na pasta `data`.
+- [Apresentação online](https://docs.google.com/presentation/d/1ChosrNGKHzCdR9neWAeuSH7O6s1dwtQyMxeMDNart7U/edit?usp=sharing) (com gifs :)
 
 ## Pós-aula
 
