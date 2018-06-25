@@ -1,8 +1,34 @@
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
+import seaborn as sns
 from sklearn.metrics import confusion_matrix, precision_recall_curve
 import itertools
+
+
+def plot_overlapping_histograms(df, col, hue, size=7, aspect=1.5, 
+                                title=None, bins=None):
+    g = sns.FacetGrid(df, hue=hue, size=size, aspect=aspect)
+    g = g.map(plt.hist, col, density=True, alpha=0.35, bins=bins)
+    g.add_legend()
+    g.fig.suptitle(title)
+    
+    
+def countplot_independent_ylims(df, col, hue, size=5, hue_order=None, title=None):
+    g = sns.FacetGrid(df, col=hue, sharey=False, size=size)
+    g = g.map(sns.countplot, col, order=hue_order)
+    plt.subplots_adjust(top=0.85)
+    g.fig.suptitle(title)
+
+
+def plot_1d_corr_heatmap(corr: pd.Series, annot=True, fmt='.2f', 
+                         cmap='coolwarm'):
+    max_corr = corr.abs().max()
+    heatmap_df = pd.DataFrame(corr.sort_values(ascending=False))
+    plt.subplots(figsize=(1.5, len(corr)//3.5))
+
+    sns.heatmap(heatmap_df, annot=annot, fmt=fmt, cmap=cmap,
+                center=0, vmin=-max_corr, vmax=max_corr)
 
 
 # adapted from http://scikit-learn.org/stable/auto_examples/model_selection/plot_confusion_matrix.html
@@ -49,6 +75,7 @@ def precision_recall(y_test, y_score) -> pd.DataFrame:
     return _precision_recall_results(precision, recall, thresholds)
 
 
+# adapted from http://scikit-learn.org/stable/auto_examples/model_selection/plot_precision_recall.html
 def _precision_recall_plot(y_test, y_score):
     precision, recall, thresholds = precision_recall_curve(y_test, y_score)
 
