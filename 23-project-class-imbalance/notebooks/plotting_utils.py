@@ -6,9 +6,10 @@ from sklearn.metrics import confusion_matrix, precision_recall_curve
 import itertools
 
 
-def plot_overlapping_histograms(df, col, hue, size=7, aspect=1.5, title=None):
+def plot_overlapping_histograms(df, col, hue, size=7, aspect=1.5, 
+                                title=None, bins=None):
     g = sns.FacetGrid(df, hue=hue, size=size, aspect=aspect)
-    g = g.map(plt.hist, col, density=True, alpha=0.35)
+    g = g.map(plt.hist, col, density=True, alpha=0.35, bins=bins)
     g.add_legend()
     g.fig.suptitle(title)
     
