@@ -16,3 +16,4 @@ Não há Pré-Aula! =)
 ### Pós-Aula:
 1. Apresentação sobre Feature Engineering por HJvanVeen: https://pt.slideshare.net/HJvanVeen/feature-engineering-72376750
 2. Solução por `amansingh9097`: https://github.com/amansingh9097/CaliforniaHousingPrices/blob/master/California-Housing-Prices.ipynb
+3. Feature Engineering feita por mim em um desafio do Kaggle no pdf na pasta `presentations`
