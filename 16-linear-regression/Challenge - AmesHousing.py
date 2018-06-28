@@ -21,3 +21,5 @@ df.head()
 
 
 # Quer ajuda? Veja a explicação dos dados (e o que são outliers de verdade e podem ser removidos) [aqui](https://ww2.amstat.org/publications/jse/v19n3/decock/DataDocumentation.txt)
+
+# Você também pode submeter a sua solução no [kaggle](https://www.kaggle.com/c/house-prices-advanced-regression-techniques#evaluation).
