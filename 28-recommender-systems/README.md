@@ -1,10 +1,10 @@
-# Unsupervised Learning: Topic Analysis
-Material da aula 30 - Unsupervised Learning: Topic Analysis
+# Recommender Systems
+Material da aula 28 - Recommender Systems
 
 ## Pré-aula
 
-### Fortemente recomendado
-A aula de topic analysis utilizará muito dos conceitos de algebra linear desses vídeos. Acho muito importante assistir esses vídeos se não está familiarizado com esse tema.
+### Recomendado
+A aula de utilizará muito dos conceitos de algebra linear desses vídeos. Acho muito importante assistir esses vídeos se não está familiarizado com esse tema.
 - Essence of linear algebra (Three Blue One Brown) - ~2,5 horas - https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab
 
 ### Obrigatório!
