@@ -1,5 +1,5 @@
-# Recommender Systems
-Material da aula 28 - Recommender Systems
+# Deep Learning
+Material da aula 30 - Deep Learning
 
 ## Pré-aula
 
